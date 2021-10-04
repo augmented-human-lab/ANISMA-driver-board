@@ -1,0 +1,9 @@
+Item #,Designator,Qty,Manufacturer,Mfg Part #,Description / Value,Package/Footprint,Type,DigiKey Part,DigiKey URL,Your Instructions / Notes
+1,"BUS, JPBUS",2,Sullins Connector Solutions,PINHD-1X5/90,,1X05/90,thru-hole,S1111E-05-ND,https://www.digikey.co.nz/en/products/detail/sullins-connector-solutions/PBC05SBAN/860345?s=N4IgTCBcDaIMoEYkIKIFoAMBWNA5AIiALoC%2BQA,
+2,OUT,1,Sullins Connector Solutions,PINHD-1X8/90,,1X08/90,thru-hole,S1111E-08-ND,https://www.digikey.co.nz/en/products/detail/sullins-connector-solutions/PBC08SBAN/860348,
+3,"ADR0, ADR1, ADR2, ADR3, ADR4, ADR5",6,,SJ,,SJ,SMD,,,"No assembly needed, please consider for pricing"
+4,C2,1,Walsin Technology Corporation,C-EUC0603,100nF,C0603,SMD,1292-1161-2-ND,https://www.digikey.co.nz/en/products/detail/walsin-technology-corporation/0201X104K160CT/9354659,
+5,"R1, R4, R5, R6, R7, R8, R9",7,Stackpole Electronics Inc,10KOHM-0603-1/10W-1%,10k,603,SMD,RMCF0603FT10K0TR-ND,https://www.digikey.co.nz/en/products/detail/stackpole-electronics-inc/RMCF0603FT10K0/1761235,
+6,C1,1,Panasonic Electronic Components,EEE1CA470WR,EEE1CA470WR,CAP_EEE1CA470WR,SMD,PCE3890TR-ND,https://www.digikey.co.nz/en/products/detail/panasonic-electronic-components/EEE-1CA470WR/766057,
+7,"DRV-1, DRV-2, DRV-3, DRV-4",4,Maxim Integrated,MAX14874,MAX14874,TD1233,SMD,175-MAX14874ETC+TTR-ND,https://www.digikey.co.nz/en/products/detail/maxim-integrated/MAX14874ETC-T/7392069,
+8,PCA9685,1,NXP USA Inc.,PCA9685PW,PCA9685PW,TSSOP28,SMD,568-11925-2-ND,https://www.digikey.co.nz/en/products/detail/nxp-usa-inc/PCA9685PW-118/2034325,
