@@ -23,17 +23,17 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -47,9 +47,9 @@
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
@@ -59,7 +59,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -1902,11 +1902,11 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="9" x="38.5" y="15.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="34.69" y="7.245" size="1.27" layer="27"/>
 </element>
-<element name="R1" library="SparkFun-Resistors" package="0603" value="10k" x="5.85" y="22.44" smashed="yes" rot="MR180">
-<attribute name="NAME" x="5.85" y="21.678" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-00824" x="5.85" y="22.44" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="5.85" y="22.44" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="VALUE" x="5.85" y="23.202" size="0.6096" layer="28" font="vector" ratio="20" rot="MR180" align="top-center"/>
+<element name="R1" library="SparkFun-Resistors" package="0603" value="10k" x="5.9" y="22.46" smashed="yes">
+<attribute name="NAME" x="5.9" y="23.222" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="RES-00824" x="5.9" y="22.46" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="5.9" y="22.46" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="5.9" y="21.698" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="C1" library="EEE1CA470WR" package="CAP_EEE1CA470WR" value="EEE1CA470WR" x="29.5" y="24" smashed="yes" rot="R180">
 <attribute name="AVAILABILITY" value="In Stock" x="29.5" y="24" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2353,11 +2353,13 @@ design rules under a new name.</description>
 <wire x1="31.92" y1="16.67" x2="33.52" y2="16.67" width="0.3048" layer="1"/>
 <wire x1="33.52" y1="16.67" x2="34.69" y2="15.5" width="0.3048" layer="1"/>
 <contactref element="R1" pad="1"/>
-<wire x1="5" y1="22.44" x2="4.44" y2="22.44" width="0.3048" layer="16"/>
-<wire x1="4.44" y1="22.44" x2="3.5" y2="21.5" width="0.3048" layer="16"/>
-<wire x1="3.5" y1="21.5" x2="3.5" y2="16.5" width="0.3048" layer="16"/>
+<wire x1="3.55" y1="23" x2="3.5" y2="22.95" width="0.3048" layer="16"/>
+<wire x1="3.5" y1="22.95" x2="3.5" y2="16.5" width="0.3048" layer="16"/>
 <wire x1="3.5" y1="16.5" x2="4.5" y2="15.5" width="0.3048" layer="16"/>
 <wire x1="4.5" y1="15.5" x2="5.81" y2="15.5" width="0.3048" layer="16"/>
+<via x="3.55" y="23" extent="1-16" drill="0.35"/>
+<wire x1="3.55" y1="23" x2="4.09" y2="22.46" width="0.3048" layer="1"/>
+<wire x1="4.09" y1="22.46" x2="5.05" y2="22.46" width="0.3048" layer="1"/>
 </signal>
 <signal name="SDA">
 <contactref element="PCA9685" pad="27"/>
@@ -2373,7 +2375,7 @@ design rules under a new name.</description>
 <wire x1="9.47" y1="21.52" x2="9.5" y2="21.52" width="0.3048" layer="16"/>
 <via x="9.5" y="21.52" extent="1-16" drill="0.35"/>
 <wire x1="9.5" y1="21.52" x2="6.75" y2="21.52" width="0.3048" layer="1"/>
-<wire x1="6.75" y1="21.52" x2="5.81" y2="20.58" width="0.3048" layer="1"/>
+<wire x1="6.615" y1="21.385" x2="5.81" y2="20.58" width="0.3048" layer="1"/>
 <wire x1="10.45" y1="18.34" x2="9.47" y2="19.32" width="0.3048" layer="16"/>
 <wire x1="9.58" y1="21.44" x2="9.5" y2="21.52" width="0.3048" layer="16"/>
 <wire x1="20.2370875" y1="21.167" x2="19.9640875" y2="21.44" width="0.3048" layer="16"/>
@@ -2382,8 +2384,9 @@ design rules under a new name.</description>
 <wire x1="34.69" y1="20.58" x2="34.103" y2="21.167" width="0.3048" layer="16"/>
 <wire x1="34.103" y1="21.167" x2="20.2370875" y2="21.167" width="0.3048" layer="16"/>
 <contactref element="R1" pad="2"/>
-<wire x1="6.7" y1="22.44" x2="6.7" y2="21.47" width="0.3048" layer="16"/>
 <wire x1="6.7" y1="21.47" x2="5.81" y2="20.58" width="0.3048" layer="16"/>
+<wire x1="6.75" y1="22.46" x2="6.75" y2="21.52" width="0.3048" layer="1"/>
+<wire x1="6.75" y1="21.52" x2="6.615" y2="21.385" width="0.3048" layer="1"/>
 </signal>
 <signal name="SCL">
 <contactref element="PCA9685" pad="26"/>

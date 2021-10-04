@@ -1,0 +1,9 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"";
+"2";"";"PINHD-1X5/90";"1X05/90";"BUS, JPBUS";"PIN HEADER";"";
+"1";"";"PINHD-1X8/90";"1X08/90";"OUT";"PIN HEADER";"";
+"6";"";"SJ";"SJ";"ADR0, ADR1, ADR2, ADR3, ADR4, ADR5";"SMD solder JUMPER";"";
+"1";"100nF";"C-EUC0603";"C0603";"C2";"CAPACITOR, European symbol";"";
+"7";"10k";"10KOHM-0603-1/10W-1%";"0603";"R1, R4, R5, R6, R7, R8, R9";"10kΩ resistor";"";
+"1";"EEE1CA470WR";"EEE1CA470WR";"CAP_EEE1CA470WR";"C1";"Check prices";"";
+"4";"MAX14874";"MAX14874";"TD1233";"DRV-1, DRV-2, DRV-3, DRV-4";"";"";
+"1";"PCA9685PW";"PCA9685PW";"TSSOP28";"PCA9685";"";"";
